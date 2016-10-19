@@ -10,8 +10,47 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="www.gles.net.kitchen_companion.Main_Screen">
 
-    <TextView
+    <Button
+        android:text="Recipes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/Recipes_Button" />
+
+    <Button
+        android:text="Calorie Counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Shopping_List_button"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp"
+        android:id="@+id/Calorie_Counter_Button" />
+
+    <Button
+        android:text="Calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/Calendar_Button"
+        android:layout_below="@+id/Recipes_Button"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Shopping List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:id="@+id/Shopping_List_button"
+        android:layout_below="@+id/Calendar_Button"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Settings_Button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
