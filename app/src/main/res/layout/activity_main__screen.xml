@@ -17,7 +17,8 @@
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
         android:layout_marginTop="50dp"
-        android:id="@+id/Recipes_Button" />
+        android:id="@+id/Recipes_Button"
+        android:onClick="buttonOnClick (Main_Screen)" />
 
     <Button
         android:text="Calorie Counter"
