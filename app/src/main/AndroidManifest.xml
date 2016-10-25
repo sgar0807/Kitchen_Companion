@@ -15,6 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Recipes.Recipes"
+            android:label="@string/title_activity_recipes"
+            android:parentActivityName=".Main_Screen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="www.gles.net.kitchen_companion.Main_Screen" />
+        </activity>
     </application>
 
 </manifest>
