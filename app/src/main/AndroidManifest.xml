@@ -24,6 +24,33 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="www.gles.net.kitchen_companion.Main_Screen" />
         </activity>
+        <activity
+            android:name=".activity_calendar.Calender"
+            android:label="@string/title_activity_calender"
+            android:parentActivityName=".Main_Screen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="www.gles.net.kitchen_companion.Main_Screen" />
+        </activity>
+        <activity
+            android:name=".Shopping_List.Shopping_List"
+            android:label="@string/title_activity_shopping__list"
+            android:parentActivityName=".Main_Screen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="www.gles.net.kitchen_companion.Main_Screen" />
+        </activity>
+        <activity
+            android:name=".Calorie_Counter.Calorie_Counter"
+            android:label="@string/title_activity_calorie__counter"
+            android:parentActivityName=".Main_Screen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="www.gles.net.kitchen_companion.Main_Screen" />
+        </activity>
     </application>
 
 </manifest>

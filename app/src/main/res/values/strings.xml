@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Kitchen_Companion</string>
     <string name="title_activity_recipes">Recipes</string>
+    <string name="title_activity_calender">Calender</string>
+    <string name="title_activity_shopping__list">Shopping_List</string>
+    <string name="title_activity_calorie__counter">Calorie_Counter</string>
 </resources>
